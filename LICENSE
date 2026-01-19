@@ -1,91 +1,21 @@
-# ===================== 核心 Python 忽略项 =====================
-# 虚拟环境（开发环境隔离，无需提交）
-venv/
-env/
-.venv/
-env.local/
-env/
-ENV/
-env.bak/
-venv.bak/
+MIT License
 
-# Python 编译文件（字节码，自动生成）
-__pycache__/
-*.py[cod]
-*$py.class
+Copyright (c) 2026 huangshauai
 
-# 分发/打包文件
-dist/
-build/
-*.egg-info/
-*.egg
-MANIFEST
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-# 测试/覆盖率报告
-htmlcov/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-# ===================== UMC 项目专属忽略项 =====================
-# 本地测试数据（如能耗数据、场景数据，避免仓库体积过大）
-*.csv
-*.xlsx
-*.json
-data/
-datasets/
-
-# 模型/缓存文件（运行时生成，无需提交）
-models/
-cache/
-*.pkl
-*.h5
-*.pt
-*.ckpt
-
-# 日志文件（运行日志，包含本地环境信息）
-logs/
-*.log
-*.log.*
-
-# 配置文件（含本地敏感信息/环境变量）
-config/
-*.ini
-*.conf
-.env
-.env.local
-.env.*
-
-# ===================== 通用忽略项 =====================
-# IDE/编辑器配置（适配主流工具）
-.idea/
-.vscode/
-*.swp
-*.swo
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-*.sublime-project
-
-# 操作系统文件
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# 临时文件
-*.tmp
-*.temp
-*.bak
-*.swp
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
