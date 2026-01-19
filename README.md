@@ -1,2 +1,3 @@
-# UMC-Metabolic-Agent
-A lightweight general intelligent agent based on metabolic conservation principle
+#UMC-代谢智能体（UMC-代谢智能体）
+一种基于代谢守恒原理（物质-能量-信息三元耦合）的轻量级通用智能体。
+一种基于代谢守恒（物质-能量-信息三位一体耦合）原理的轻量级通用智能体。
