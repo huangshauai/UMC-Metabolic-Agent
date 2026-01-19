@@ -1,0 +1,9 @@
+# UMC-Metabolic-Agent 核心依赖（仅满足AGI L3基础能力，轻量化部署）
+# 版本与environment.yml严格对齐，避免依赖冲突
+numpy==1.26.4          # 核心数值计算（代谢循环/因子分析必备）
+pandas==2.1.4          # 数据处理（清洗/标准化/示例数据加载）
+scikit-learn==1.3.2    # 无监督聚类基础（陌生环境适配核心）
+configparser==5.3.0    # 配置文件解析（parameters.ini/paths.ini读取）
+scipy==1.11.4          # 科学计算（量子/原子数据基础处理）
+psutil==5.9.6          # 系统监控（性能校验/故障识别）
+python-dotenv==1.0.0   # 环境变量管理（轻量化部署适配）
